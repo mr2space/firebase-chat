@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.logo{
+    @apply font-semibold text-3xl text-center  mt-2
+}
+
+.form-title{
+    @apply font-light text-lg text-center mb-3
+}
+
+.register-back{
+    @apply h-screen w-full flex flex-col justify-center items-center bg-blue-500
+}
+
+.form{
+    @apply w-full flex flex-col items-center
+}
+
+.form-box{
+    @apply flex flex-col container w-1/4 h-auto p-2 bg-white rounded-lg items-center
+}
+
+.form-input{
+    @apply w-4/5 mx-auto m-2 p-2 focus:border-blue-400 rounded border outline-none font-semibold
+}
+
+.sign-button{
+    @apply w-4/5 bg-blue-600 rounded p-2 text-white hover:bg-blue-700 text-lg mt-2
+}
+
+
+.home{
+    @apply w-screen h-screen flex justify-center items-center p-5 rounded bg-[url('.\assessts\img\background.png')] bg-no-repeat bg-cover bg-center
+}
+
+.user-chat:hover{
+    background:linear-gradient(90deg, rgba(255, 255, 255, 0.3) 0.22%, rgba(255, 255, 255, 0.1) 160.46%);
+}
+
+.user-chat{
+    background:linear-gradient(90deg, rgba(255, 255, 255, 0.23) 0.22%, rgba(255, 255, 255, 0.00) 160.46%);
+    @apply flex transition-all duration-700 items-center p-3 cursor-pointer rounded-lg mx-2 my-4  to-black/5 hover:brightness-125 
+}
+
+.user-chat.active:hover{
+    background: linear-gradient(90deg, rgba(13, 95, 218, 0.9) 0%, rgba(13, 95, 218, 0.1) 117.83%);
+}
+
+
+.active{
+    background: linear-gradient(90deg, rgba(13, 95, 218, 0.84) 0%, rgba(13, 95, 218, 0.00) 117.83%);
+}
+
+.user-chat-profile{
+    box-shadow: 1px 1px 10px 10px rgba(255,255,255,1);
+    -webkit-box-shadow: 1px 1px 63px 2px rgba(255,255,255,0.3);
+    -moz-box-shadow: 1px 1px 10px 2px rgba(255,255,255,1);
+    @apply w-12 h-12 object-cover rounded 
+}
+
+.userchat-info{
+    @apply ml-4
+}
+
+.user-name{
+    @apply font-semibold text-white text-lg
+}
+
+.chat-icons{
+    @apply w-8 h-auto object-cover 
+}
+
+
+.owner{
+    @apply flex-row-reverse
+}
+
+.owner p{
+    @apply bg-[#4C38A2] text-white rounded-none rounded-s-xl rounded-b-xl shadow-md
+}
