@@ -12,7 +12,7 @@ const Navbar = () => {
   }
   return (
     <div className="flex justify-between p-5  items-center border-b border-white">
-      <span className="text-lg font-semibold text-white">Lama Chat</span>
+      <span className="text-lg font-semibold text-white">Fire Chat</span>
       <div className="flex gap-3 items-center">
         <img src={currentUser.photoURL} alt="profile" className='object-cover w-8 h-8 rounded-full' />
         <button className='bg-blue-500 rounded-sm p-1 text-xs text-white font-semibold' onClick={handleLogout}>Logout</button>

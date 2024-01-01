@@ -24,7 +24,7 @@ const Login = () => {
   return (
     <div className="register-back">
         <div className="form-box">
-            <span className="logo text-blue-600">Lama Chat</span>
+            <span className="logo text-blue-600">Fire Chat</span>
             <span className="form-title">Login</span>
             <form onSubmit={handleSubmit} className='form'>
                 <input type="email" placeholder='Email' className='form-input'/>

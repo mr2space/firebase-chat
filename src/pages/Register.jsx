@@ -60,7 +60,7 @@ const Register = () => {
   return (
     <div className="register-back">
         <div className="form-box">
-            <span className="logo text-blue-600">Lama Chat</span>
+            <span className="logo text-blue-600">Fire Chat</span>
             <span className="form-title">Register</span>
             <form className='form' onSubmit={handleSubmit}>
                 <input type="text" placeholder='display name' className='form-input'/>
